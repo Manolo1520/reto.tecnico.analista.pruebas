@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="10eedf02dbbb6b57e596c7c8d08f69cb51013a36b6f2bc5f953c2752a2fd63ca.html">Technical Challenge</a></span>
+                > <span class="truncate-60"><a
+                    href="b9455f9d8d3f4a1ed0e983092fd6abe97e06e5a1dbb87eb95931cd9bb3d21874.html">Search for a automation course </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-10-2021 10:43</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Technical Challenge </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I need to learn how to register on the Utest portal with automation help
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search for a automation course
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given that Manuel needs to learn how to register on Utest portal with our help<br>When he enter the data required by the register form<br><table class='embedded'><thead><th>strFirstName</th><th>strLastName</th><th>strEmail</th><th>strMes</th><th>strDia</th><th>strAno</th><th>strLenguaje</th><th>strCity</th><th>strCodPostal</th><th>strMovilBrand</th><th>strMovilModel</th><th>strMovilOperating</th><th>strPassword</th><th>strConfirmPassword</th></thead><tbody><tr><td>&lt;strFirstName&gt;</td><td>&lt;strLastName&gt;</td><td>&lt;strEmail&gt;</td><td>&lt;strMes&gt;</td><td>&lt;strDia&gt;</td><td>&lt;strAno&gt;</td><td>&lt;strLenguaje&gt;</td><td>&lt;strCity&gt;</td><td>&lt;strCodPostal&gt;</td><td>&lt;strMovilBrand&gt;</td><td>&lt;strMovilModel&gt;</td><td>&lt;strMovilOperating&gt;</td><td>&lt;strPassword&gt;</td><td>&lt;strConfirmPassword&gt;</td></tr></tbody></table><br>Then he will be registered as a client and will be able to enter the portal<br><table class='embedded'><thead><th>strUserLogin</th><th>strPassLogin</th><th>strEmail</th></thead><tbody><tr><td>&lt;strUserLogin&gt;</td><td>&lt;strPassLogin&gt;</td><td>&lt;strEmail&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="24c207416b63b4b146e716a4478cacaa87802f67ff963dc813819c12e22b034b.png" title=" Example: {strFirstName=josefer, strLastName=Moncada, strEmail=memoncaditapp@hotmail.com, strMes=August, strDia=2, strAno=2002, strLenguaje=Spanish, strCity=Bogota D.C, strCodPostal=250240, strMovilBrand=Samsung, strMovilModel=A900, strMovilOperating=BlackBerry 4.2.2, strPassword=Colombianos87., strConfirmPassword=Colombianos87., strUserLogin=memoncaditapp@hotmail.com, strPassLogin=Colombianos87.}" width="1366"/>
+                <img src="24c207416b63b4b146e716a4478cacaa87802f67ff963dc813819c12e22b034b.png" title=" When he enter the data required by the register form
+| strFirstName | strLastName | strEmail | strMes | strDia | strAno | strLenguaje | strCity | strCodPostal | strMovilBrand | strMovilModel | strMovilOperating | strPassword | strConfirmPassword |
+| josefer | Moncada | memoncaditapp@hotmail.com | August | 2 | 2002 | Spanish | Bogota D.C | 250240 | Samsung | A900 | BlackBerry 4.2.2 | Colombianos87. | Colombianos87. |" width="1366"/>
+                <img src="24c207416b63b4b146e716a4478cacaa87802f67ff963dc813819c12e22b034b.png" title=" Manuel open up" width="1366"/>
+                <img src="24c207416b63b4b146e716a4478cacaa87802f67ff963dc813819c12e22b034b.png" title=" Manuel opens the Reto tecnico page" width="1366"/>
+                <img src="24c207416b63b4b146e716a4478cacaa87802f67ff963dc813819c12e22b034b.png" title=" Manuel open up (completed)" width="1366"/>
+                <img src="ec80dc8a8abad218016f0192b8b2b8e32f3414fa4180232836a8f934b4cd6fbd.png" title=" Manuel register" width="1366"/>
+                <img src="ec80dc8a8abad218016f0192b8b2b8e32f3414fa4180232836a8f934b4cd6fbd.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="bd2a9d25d0dde5c962a2de31f3939fb0ee4d2e12dcd05badda799075cf92af12.png" title=" Manuel enters 'josefer' into button that shows us the form to login" width="1366"/>
+                <img src="4b617886111cd47c459b0deca8228af175ffd80efe47b7cdc97a62e8fc23211f.png" title=" Manuel enters 'Moncada' into button that shows us the form to login" width="1366"/>
+                <img src="2d490950c84b5359d56148ad89f24614ffe3fc7f817823c68e7f16d6b36e75e8.png" title=" Manuel enters 'memoncaditapp@hotmail.com' into button that shows us the form to login" width="1366"/>
+                <img src="09318acb60467ca63ce93209cd0938d95343e8eb9cca5778397fb46b3203a3d1.png" title=" Manuel select August on button that shows us the form to login" width="1366"/>
+                <img src="18078ad2cc9efb6d6bbc72bc219060f2d44edf2119351ae19b8b788c29234b96.png" title=" Manuel select 2 on button that shows us the form to login" width="1366"/>
+                <img src="d8f628bd6231201e9fe9cfa3642a117b6aab7b33f4c1496fc7f711eeb053fa3a.png" title=" Manuel select 2002 on button that shows us the form to login" width="1366"/>
+                <img src="cba9989c24e7389bd7a51f8f3aec08ec1b760d3e802d1c123072830cae2404ba.png" title=" Manuel enters 'Spanish' into button that shows us the form to login" width="1366"/>
+                <img src="e26ff0ea163b5c8659ce2eed60c759bb28c72d0c86bf214a6cba664f4ade6632.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="12b1d9f1c368686f693c57a4d14b7fd6085f2bc3a16ab8e7f02bd6983f2a3308.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="ce1cf55feaafd19d1aff474e6a7c22877c46f63c230174d209f8d2d659904321.png" title=" Manuel enters 'Bogota D.C' into button that shows us the form to login" width="1366"/>
+                <img src="62ad680227a7c56f1c75fd10f5316881ba4b3712b64afca0fb85f8ff1f49104e.png" title=" Manuel types 'ARROW_DOWN' in button that shows us the form to login" width="1366"/>
+                <img src="0f7d3d858e62ae4567ae2ba17d680d114ba36314383d3a10ca26a91daa03444a.png" title=" Manuel types 'ENTER' in button that shows us the form to login" width="1366"/>
+                <img src="59dc20b489a66f32546f562f68ed16cbb252795545aa97223fd82871ec75232f.png" title=" Manuel enters '250240' into button that shows us the form to login" width="1366"/>
+                <img src="3c9e008e5f051148083218b238e8d699f67d9f5c3affaf0aaeadb429208c6bbf.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="79cb3c60811a3274dabc8ae34a74f3f89a424d0ca5a4c1f90a0613da93854c3b.png" title=" Manuel enters 'Samsung' into button that shows us the form to login" width="1366"/>
+                <img src="fb95fa1d4d968ecbd65965fb45d0eab7cdc65c37597721fd575a0fb45a554397.png" title=" Manuel enters 'A900' into button that shows us the form to login" width="1366"/>
+                <img src="d05cae71dc352002821aca322feed72b239128038bc03c9c6ed12d9a7378ed97.png" title=" Manuel enters 'BlackBerry 4.2.2' into button that shows us the form to login" width="1366"/>
+                <img src="a28e04c3a21fa6fba66681180861e9cd923ce47802251f732b7fa1ce96f3470d.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="e6d8ec4aa3ee05081c46897abba2dbfe4661a670638a65b66dbd10acbd8fcd2d.png" title=" Manuel enters 'Colombianos87.' into button that shows us the form to login" width="1366"/>
+                <img src="a8abc77f8bc7f03dfdd4186f0378e3ff7727e7a062fc92e2d1a1cd5e449ad637.png" title=" Manuel enters 'Colombianos87.' into button that shows us the form to login" width="1366"/>
+                <img src="caef2865a9109c4e0cf5b33ce397613a65723c56afa589e24d87bb4fc0be3b09.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="b6994d756f05db7dcb22bd455e937394790b08e3860439280c679a19c9bb9f23.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="7cffbc570dc4d600f0b4a632d8a17106391c0f3a19a6450816e972ae8056fd0a.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="7cffbc570dc4d600f0b4a632d8a17106391c0f3a19a6450816e972ae8056fd0a.png" title=" Manuel register (completed)" width="1366"/>
+                <img src="a61946251243729a57592800f092bfe7829292d15d0a6432bca709aae7394f92.png" title=" When he enter the data required by the register form
+| strFirstName | strLastName | strEmail | strMes | strDia | strAno | strLenguaje | strCity | strCodPostal | strMovilBrand | strMovilModel | strMovilOperating | strPassword | strConfirmPassword |
+| josefer | Moncada | memoncaditapp@hotmail.com | August | 2 | 2002 | Spanish | Bogota D.C | 250240 | Samsung | A900 | BlackBerry 4.2.2 | Colombianos87. | Colombianos87. | (completed)" width="1366"/>
+                <img src="24c207416b63b4b146e716a4478cacaa87802f67ff963dc813819c12e22b034b.png" title=" Then he will be registered as a client and will be able to enter the portal
+| strUserLogin | strPassLogin | strEmail |
+| memoncaditapp@hotmail.com | Colombianos87. | memoncaditapp@hotmail.com |" width="1366"/>
+                <img src="24c207416b63b4b146e716a4478cacaa87802f67ff963dc813819c12e22b034b.png" title=" Manuel open up" width="1366"/>
+                <img src="24c207416b63b4b146e716a4478cacaa87802f67ff963dc813819c12e22b034b.png" title=" Manuel opens the Reto tecnico page" width="1366"/>
+                <img src="24c207416b63b4b146e716a4478cacaa87802f67ff963dc813819c12e22b034b.png" title=" Manuel open up (completed)" width="1366"/>
+                <img src="f71d043f375eb86b7a111a3913ae50b4a15c852a230e13a46fca854ab64435be.png" title=" Manuel login" width="1366"/>
+                <img src="f71d043f375eb86b7a111a3913ae50b4a15c852a230e13a46fca854ab64435be.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="37c71d0e4ca9731590f783741f5c8b2c49ea1d4cf11d08f0f3dd3ce45d15b402.png" title=" Manuel enters 'memoncaditapp@hotmail.com' into button that shows us the form to login" width="1366"/>
+                <img src="56d2fdc8296614b3bed52316624b5f5ee15b20e11014218113619144a9bc18d8.png" title=" Manuel enters 'Colombianos87.' into button that shows us the form to login" width="1366"/>
+                <img src="10bed239fe8785662375622138492908604b1a6c366eaed992bfac5b4140bf74.png" title=" Manuel clicks on button that shows us the form to login" width="1366"/>
+                <img src="10bed239fe8785662375622138492908604b1a6c366eaed992bfac5b4140bf74.png" title=" Manuel login (completed)" width="1366"/>
+                <img src="10bed239fe8785662375622138492908604b1a6c366eaed992bfac5b4140bf74.png" title=" Then answer" width="1366"/>
+                <img src="10bed239fe8785662375622138492908604b1a6c366eaed992bfac5b4140bf74.png" title=" Then he will be registered as a client and will be able to enter the portal
+| strUserLogin | strPassLogin | strEmail |
+| memoncaditapp@hotmail.com | Colombianos87. | memoncaditapp@hotmail.com | (completed)" width="1366"/>
+                <img src="10bed239fe8785662375622138492908604b1a6c366eaed992bfac5b4140bf74.png" title=" Example: {strFirstName=josefer, strLastName=Moncada, strEmail=memoncaditapp@hotmail.com, strMes=August, strDia=2, strAno=2002, strLenguaje=Spanish, strCity=Bogota D.C, strCodPostal=250240, strMovilBrand=Samsung, strMovilModel=A900, strMovilOperating=BlackBerry 4.2.2, strPassword=Colombianos87., strConfirmPassword=Colombianos87., strUserLogin=memoncaditapp@hotmail.com, strPassLogin=Colombianos87.} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
